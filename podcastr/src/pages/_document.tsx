@@ -1,6 +1,6 @@
 import Document, {Html, Head, Main, NextScript} from "next/document";
 import React from "react";
-import { Header } from "../components/Header";
+
 
 export default class MyDocument extends Document {
   render() {
@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
         </Head>
 
         <body>
-          <Header />
+          <Main />
           <NextScript />
         </body>
       </Html>
