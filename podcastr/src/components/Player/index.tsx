@@ -9,7 +9,7 @@ export function Player() {
       </header>
 
       <div className={styles.emptyPlayer}>
-        <strong>Selecione um podecast para ouvir</strong>
+        <strong>Selecione um podcast para ouvir</strong>
       </div>
       
       <footer className={styles.empty}>
